@@ -2,6 +2,8 @@
 
 Shiny app for plotting <a href="https://www.google.com/covid19/mobility/">Google Community Mobility Reports</a> and <a href="https://www.apple.com/covid19/mobility">Apple Mobility Trends Reports</a>.
 
+Follow this link to view the app: TBA
+
 Alternatively the following command will download and run the application in R:
 
 ``` R
