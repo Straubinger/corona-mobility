@@ -10,4 +10,4 @@ Alternatively the following command will download and run the application in R:
 shiny::runGitHub("corona-mobility", "Straubinger")
 ```
 
-Data source: Kieran Healy. 2020. covdata: COVID-19 Case and Mortality Time Series. R package version 0.1.0, <http://kjhealy.github.io/covdata>.
+Data source: Kieran Healy. 2020. covdata: COVID-19 Case and Mortality Time Series. R package version 0.1.0, <a href="http://kjhealy.github.io/covdata">kjhealy.github.io/covdata</a>.
