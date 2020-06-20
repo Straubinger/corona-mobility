@@ -275,7 +275,7 @@ server <- function(input, output, session) {
             )
           ) +
           geom_hline(yintercept = 0) +
-          scale_x_date(date_labels = "%b %d") +
+          scale_x_date(date_labels = "%B %d") +
           scale_y_continuous(labels = scales::percent) +
           scale_color_brewer(palette = "Dark2") +
           labs(
@@ -308,7 +308,7 @@ server <- function(input, output, session) {
           )) +
           geom_hline(yintercept = 0) +
           facet_wrap(~ Place, ncol = 2) +
-          scale_x_date(date_labels = "%b %d") +
+          scale_x_date(date_labels = "%B %d") +
           scale_y_continuous(labels = scales::percent) +
           labs(
             title = paste0('Google Community Mobility Reports: ', input$country_g, " - ", input$region_g),
@@ -347,7 +347,7 @@ server <- function(input, output, session) {
             )
           ) +
           geom_hline(yintercept = 0) +
-          scale_x_date(date_labels = "%b %d") +
+          scale_x_date(date_labels = "%B %d") +
           scale_y_continuous(labels = scales::percent) +
           scale_color_brewer(palette = "Dark2") +
           labs(
@@ -380,7 +380,7 @@ server <- function(input, output, session) {
           )) +
           geom_hline(yintercept = 0) +
           facet_wrap(~ `Transportation type`, ncol = 2) +
-          scale_x_date(date_labels = "%b %d") +
+          scale_x_date(date_labels = "%B %d") +
           scale_y_continuous(labels = scales::percent) +
           labs(
             title = paste0('Apple Mobility Trends Reports: ', input$country_a, " - ", input$region_a),
